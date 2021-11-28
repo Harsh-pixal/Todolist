@@ -1,13 +1,136 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-div{
+  width:100%;
+  height:100vh;
+  background-image:url("bc1.jpg");
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+.center-div{
+  
+  width:25%;
+  background-color:black;
+
+  height: 90vh;
+  box-shadow:5px 5px 25px -5px rgba(0,0,0,0.5);
+  border-radius: 15px;
+}
+.im img{
+  width:4rem;
+  height:4rem;
+}
+.op{
+  color:whitesmoke;
+}
+h1{
+  color:white;
+  background:transparent;
+  background-color:rgb(11, 199, 224);
+  padding:6px 0 2px 0;
+  margin-bottom:10px;
+  box-shadow:5px 5px 25px -5px rgba(0,0,0,0.3);
+
+}
+figcaption{
+  color:white;
+}
+input{
+  text-align:center;
+  height:30px;
+  top:10px;
+  border:none;
+  background:transparent;
+  font-size:20px;
+  font-weight:500;
+  width:60%;
+  border-bottom:2px solid cyan;
+  outline:none;
+}
+
+button{
+  min-height:20px;
+  width:30px;
+  border-radius:100%;
+  padding-top:2px;
+  border-color:transparent;
+  background-color:cyan;
+  color:#fff;
+  font-size:30px;
+  border:none;
+  outline:none;
+  margin-left:10px;
+  box-shadow:5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+button:hover{
+  background-color:green;
+}
+ul{
+  margin-top:30px;
+  margin-left:16px;
+}
+ul li{
+  padding-left:0px;
+  text-align:left;
+  font-size:20px;
+  font-weight:500;
+  min-height:40px;
+  display:flex;
+  align-items:center;
+  color:cyan;
+  text-transform:capitalize;
+
+}
+@media (max-width:768px){
+  .center-div{
+    width:55%;
+  }
+}
+.todo_style{
+  display: flex;
+  flex-direction:row;
+  justify-content: left;
+  align-items:center;
+}
+.todo_style .fa-times{
+  width:20px;
+  height:20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:cyan;
+  border-radius:50%;
+  margin:0 15px 0 35px;
+  color:aliceblue;
+  box-shadow:5px 5px 25px -5px rgba(0,0,0,0.3);
+}
+.todo_style .fa-times:hover{
+  background-color:crimson;
+}
+
+
+footer{
+  display: flex;
+  
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+footer p{
+  width:100vw;
+  /* height:1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;;
+  
 }

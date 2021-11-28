@@ -5,8 +5,36 @@
 /.pnp
 .pnp.js
 
+
+
+src/App.css
+            src/App.js
+           src/App.test.js
+
+
+           src/logo.svg
+      src/reportWebVitals.js
+            src/setupTests.js
+
+
 # testing
 /coverage
+
+
+    public/logo192.png
+           public/logo512.png
+            public/robots.txt
+            src/App.css
+            src/App.js
+            src/App.test.js
+
+
+               src/logo.svg
+            src/reportWebVitals.js
+            src/setupTests.js
+            .gitignore
+
+
 
 # production
 /build
